@@ -1,2 +1,2 @@
 
-export LESS='--mouse --wheel-lines 2'
+export LESS='FR --mouse --wheel-lines 2'
