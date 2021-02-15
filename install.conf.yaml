@@ -6,8 +6,9 @@
 
 - link:
     ~/.tmux.conf.local: tmux.conf.local
-    ~/.vim: vim
     ~/.vimrc: vimrc
+    ~/.config/redshift.conf: redshift-home-pc.conf 
+    ~/.bash_local_config: sh_conf/
 
 - create:
     - ~/downloads

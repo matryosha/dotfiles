@@ -1,0 +1,20 @@
+alias ..="cd .."
+alias ...="cd ../.."
+
+# ls aliases
+alias ls='ls --color=auto'
+alias ll='ls -alf'
+alias la='ls -a'
+alias l='ls -cf'
+
+alias grep='grep --color=auto'
+
+
+
+
+
+
+
+
+
+
