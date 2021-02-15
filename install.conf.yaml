@@ -8,7 +8,6 @@
     ~/.tmux.conf.local: tmux.conf.local
     ~/.vimrc: vimrc
     ~/.amix_vimrc_basic.vim:
-    ~/.config/redshift.conf: redshift-home-pc.conf 
     ~/.bash_local_config: sh_conf/
 
 - create:
