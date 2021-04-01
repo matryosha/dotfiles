@@ -5,3 +5,6 @@ endif
 
 set background=dark
 set mouse=a
+
+set shiftwidth=2
+set tabstop=2
