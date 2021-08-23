@@ -6,6 +6,7 @@
 
 - link:
     ~/.tmux.conf.local: tmux.conf.local
+    ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
     ~/.amix_vimrc_basic.vim:
     ~/.bash_local_config: sh_conf/
