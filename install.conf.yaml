@@ -10,6 +10,7 @@
     ~/.vimrc: vimrc
     ~/.amix_vimrc_basic.vim:
     ~/.bash_local_config: sh_conf/
+    ~/.ideavimrc: ideavimrc
 
 - create:
     - ~/downloads
