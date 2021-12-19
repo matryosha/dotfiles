@@ -18,3 +18,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  -
+    command: bash ./scripts/source-local-bash.sh
+    stdout: true
+    description: Sourcing dotfile's bash config
