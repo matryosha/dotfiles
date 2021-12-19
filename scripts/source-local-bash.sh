@@ -13,5 +13,3 @@ else
     echo ".bashrc was already updated"
 fi
 
-echo $BASHRC
-
