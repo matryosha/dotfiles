@@ -8,3 +8,13 @@ set mouse=a
 
 set shiftwidth=2
 set tabstop=2
+set expandtab
+set scrolloff=10
+
+let mapleader=" "
+nnoremap <SPACE> <Nop>
+noremap <leader>s :w<CR>
+noremap <leader>q :q<CR>
+map <C-v> :p<CR>
+
+
