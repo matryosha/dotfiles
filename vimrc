@@ -11,8 +11,9 @@ set tabstop=2
 set expandtab
 set scrolloff=10
 
-let mapleader=" "
-nnoremap <SPACE> <Nop>
+" nnoremap <SPACE> <Nop>
+" let mapleader=" "
+map <SPACE> <Leader>
 noremap <leader>s :w<CR>
 noremap <leader>q :q<CR>
 map <C-v> :p<CR>
