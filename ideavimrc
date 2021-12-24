@@ -24,6 +24,8 @@ map <leader>k <Action>(CheckinProject)
 map <leader>u <Action>(FindUsages)
 map <leader>s <Action>(SaveAll)
 map <leader>c <Action>(CollapseRegion)
+map <leader>e <Action>(ExpandRegion)
+
 map gb <Action>(Back)
 
 :nnoremap <C-g> <c-v>
