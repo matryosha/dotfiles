@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASHRC="/home/${USER}/.bashrc"
+BASHRC="${HOME}/.bashrc"
 LINE_TO_ADD=". ~/.bash_local_config/bash_local"
 
 if ! grep -q "$LINE_TO_ADD" $BASHRC; then
