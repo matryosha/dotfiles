@@ -24,9 +24,19 @@ map <leader>k <Action>(CheckinProject)
 map <leader>u <Action>(FindUsages)
 map <leader>s <Action>(SaveAll)
 map <leader>c <Action>(CollapseRegion)
+map <leader>C <Action>(CollapseRegionRecursively)
 map <leader>e <Action>(ExpandRegion)
+map <leader>E <Action>(ExpandRegionRecursively)
 
 map gb <Action>(Back)
+map gi <Action>(ReSharperGotoImplementation)
+
+" Smart way to move between windows
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
 
 :nnoremap <C-g> <c-v>
 
