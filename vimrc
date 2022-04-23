@@ -19,4 +19,5 @@ noremap <leader>q :q<CR>
 map <C-v> :p<CR>
 nnoremap <C-g> <c-v>
 inoremap ;; <Esc>
+set visualbell
 
