@@ -40,6 +40,8 @@ map <C-l> <C-W>l
 
 :nnoremap <C-g> <c-v>
 
+set visualbell
+
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 "" Map \r to the Reformat Code action
 "map \r <Action>(ReformatCode)
