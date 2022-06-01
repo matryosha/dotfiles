@@ -11,6 +11,7 @@ set NERDTree
 set clipboard+=unnamed
 set ignorecase
 set smartcase
+set keep-english-in-normal
 ideavimsupport+=singleline
 
 " Do incremental searching.
