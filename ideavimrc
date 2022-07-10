@@ -33,10 +33,10 @@ map gb <Action>(Back)
 map gi <Action>(ReSharperGotoImplementation)
 
 " Smart way to move between windows
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
+map <A-j> <C-W>j
+map <A-k> <C-W>k
+map <A-h> <C-W>h
+map <A-l> <C-W>l
 
 
 :nnoremap <C-g> <c-v>
