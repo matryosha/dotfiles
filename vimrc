@@ -3,7 +3,6 @@ if filereadable($AMIX_VIMRC_BASIC_FILE)
     source $AMIX_VIMRC_BASIC_FILE
 endif
 
-set background=dark
 set mouse=a
 
 set shiftwidth=2
@@ -20,4 +19,10 @@ map <C-v> :p<CR>
 nnoremap <C-g> <c-v>
 inoremap ;; <Esc>
 set visualbell
+
+" For dark version.
+set background=dark
+"let g:sonokai_better_performance = 1
+" For better performance
+colorscheme everforest 
 

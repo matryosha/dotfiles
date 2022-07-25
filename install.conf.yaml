@@ -11,6 +11,12 @@
     ~/.amix_vimrc_basic.vim:
     ~/.bash_local_config: sh_conf/
     ~/.ideavimrc: ideavimrc
+    ~/.vim/autoload/everforest.vim: 
+      create: true
+      path: vim-theme/autoload/everforest.vim
+    ~/.vim/colors/everforest.vim:       
+      create: true
+      path: vim-theme/colors/everforest.vim
 
 - create:
     - ~/downloads
