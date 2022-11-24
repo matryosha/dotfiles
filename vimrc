@@ -4,11 +4,11 @@ if filereadable($AMIX_VIMRC_BASIC_FILE)
 endif
 
 set mouse=a
-
 set shiftwidth=2
 set tabstop=2
 set expandtab
 set scrolloff=10
+set visualbell
 
 " nnoremap <SPACE> <Nop>
 " let mapleader=" "
@@ -18,7 +18,6 @@ noremap <leader>q :q<CR>
 map <C-v> :p<CR>
 nnoremap <C-g> <c-v>
 inoremap ;; <Esc>
-set visualbell
 
 " For dark version.
 set background=dark
