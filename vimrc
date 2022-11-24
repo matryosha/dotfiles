@@ -12,6 +12,8 @@ set visualbell
 set cursorline
 set undofile " Maintain undo history between sessions
 set undodir=~/.vim/undo-history
+" Requires gvim
+set clipboard=unnamedplus,unnamed
 
 " nnoremap <SPACE> <Nop>
 " let mapleader=" "
