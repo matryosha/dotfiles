@@ -30,7 +30,9 @@ map <leader>e <Action>(ExpandRegion)
 map <leader>E <Action>(ExpandRegionRecursively)
 
 map gb <Action>(Back)
+map <C-o> <Action>(Back)
 map gi <Action>(ReSharperGotoImplementation)
+map gh <Action>(ShowErrorDescription)
 
 " Smart way to move between windows
 map <A-j> <C-W>j
