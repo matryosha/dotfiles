@@ -9,6 +9,7 @@ set tabstop=2
 set expandtab
 set scrolloff=10
 set visualbell
+set cursorline
 
 " nnoremap <SPACE> <Nop>
 " let mapleader=" "
