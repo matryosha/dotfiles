@@ -17,6 +17,9 @@
     ~/.vim/colors/everforest.vim:       
       create: true
       path: vim-theme/colors/everforest.vim
+    ~/.config/alacritty/alacritty.yml:
+      create: true
+      path: alacritty.yml
 
 - create:
     - ~/downloads
