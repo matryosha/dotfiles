@@ -439,10 +439,10 @@ env:
 # Default:
 #   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
 #   - (Windows) powershell
-#shell:
-#  program: /bin/fish
-#  args:
-#    - --login
+shell:
+  program: /bin/fish
+  args:
+    - --login
 
 # Startup directory
 #
