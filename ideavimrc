@@ -20,7 +20,6 @@ set incsearch
 " Don't use Ex mode, use Q for formatting.
 map Q gq
 
-map <leader>d <Action>(QuickJavaDoc)
 map <leader>k <Action>(CheckinProject)
 map <leader>u <Action>(FindUsages)
 map <leader>s <Action>(SaveAll)
@@ -32,7 +31,8 @@ map <leader>E <Action>(ExpandRegionRecursively)
 map gb <Action>(Back)
 map <C-o> <Action>(Back)
 map gi <Action>(ReSharperGotoImplementation)
-map gh <Action>(ShowErrorDescription)
+nmap gh <Action>(ShowErrorDescription)
+nmap <leader>d <Action>(QuickJavaDoc)
 
 " Smart way to move between windows
 map <A-j> <C-W>j
@@ -71,7 +71,7 @@ sethandler <C-M> a:vim
 sethandler <C-N> a:vim
 sethandler <C-O> a:vim
 sethandler <C-P> a:vim
-sethandler <C-Q> a:vim
+sethandler <C-Q> a:ide
 sethandler <C-R> a:vim
 sethandler <C-S> a:vim
 sethandler <C-U> a:vim
