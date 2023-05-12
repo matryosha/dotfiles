@@ -20,6 +20,15 @@ map <C-v> :p<CR>
 nnoremap <C-g> <c-v>
 inoremap ;; <Esc>
 
+" When jumping to next/prev search keep in the middle
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+" Paste and keep pasted in buffer (whereas just pasting will change default buffer)
+xnoremap <leader>p "_dP
+
+nnoremap <leader>s :%s/\<<C-r><C-w>\>//g<Left><Left> 
+
 " For dark version.
 set background=dark
 "let g:sonokai_better_performance = 1
