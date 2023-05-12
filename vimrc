@@ -31,6 +31,13 @@ xnoremap <leader>p "_dP
 
 nnoremap <leader>s :%s/\<<C-r><C-w>\>//g<Left><Left> 
 
+
+" If no file provided opens Explore
+augroup ProjectDrawer
+    autocmd!
+    autocmd VimEnter * if argc() == 0 | Explore! | endif
+augroup END
+
 " For dark version.
 set background=dark
 "let g:sonokai_better_performance = 1
