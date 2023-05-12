@@ -10,6 +10,8 @@ set expandtab
 set scrolloff=10
 set visualbell
 set cursorline
+set undofile " Maintain undo history between sessions
+set undodir=~/.vim/undo-history
 
 " nnoremap <SPACE> <Nop>
 " let mapleader=" "
