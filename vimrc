@@ -20,6 +20,7 @@ noremap <leader>s :w<CR>
 noremap <leader>q :q<CR>
 map <C-v> :p<CR>
 nnoremap <C-g> <c-v>
+nnoremap <leader>e :Explore<CR>
 inoremap ;; <Esc>
 
 " When jumping to next/prev search keep in the middle
