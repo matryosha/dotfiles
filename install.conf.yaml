@@ -20,6 +20,7 @@
     ~/.config/alacritty/alacritty.yml:
       create: true
       path: alacritty.yml
+    ~/.config/kitty: kitty/
 
 - create:
     - ~/downloads
