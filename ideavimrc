@@ -8,7 +8,7 @@ let mapleader=" "
 set ideaput
 set scrolloff=5
 set NERDTree
-set clipboard+=unnamed
+set clipboard+=unnamedplus
 set ignorecase
 set smartcase
 set keep-english-in-normal
@@ -28,11 +28,13 @@ map <leader>C <Action>(CollapseRegionRecursively)
 map <leader>e <Action>(ExpandRegion)
 map <leader>E <Action>(ExpandRegionRecursively)
 
+
 map gb <Action>(Back)
 map <C-o> <Action>(Back)
 map gi <Action>(ReSharperGotoImplementation)
 nmap gh <Action>(ShowErrorDescription)
 nmap <leader>d <Action>(QuickJavaDoc)
+vmap .. <Action>(EditorSelectWord)
 
 " Smart way to move between windows
 map <A-j> <C-W>j
@@ -47,7 +49,7 @@ set visualbell
 
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
 "" Map \r to the Reformat Code action
-"map \r <Action>(ReformatCode)
+map \r <Action>(ReformatCode)
 
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
